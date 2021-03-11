@@ -394,9 +394,3 @@ function initTable() {
     html += header + body;
     document.getElementById("table_casinos").innerHTML = html;
 }
-
-new Twitch.Player("twitch-embed", {
-    channel: "bilsc28",
-    width: 854,
-    height: 480,
-  });

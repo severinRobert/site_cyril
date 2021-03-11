@@ -76,7 +76,7 @@ th, td {
     color: #edf0f1;
 }
 th {
-    color:pink;
+    color:red;
 }
     
 #headerTable {
@@ -94,6 +94,7 @@ tr:hover {
         width: 90%;
     }
 }
+// SCROLLBAR
 ::-webkit-scrollbar {
     height: 6px;
     width: 6px;
