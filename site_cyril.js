@@ -4,9 +4,9 @@
  */
 
 "use strict";
-document.addEventListener('DOMContentLoaded',initTable);
-let casinos = {
-    "Feuille1": [
+let flag = true;
+document.addEventListener('DOMContentLoaded',createTable);
+let casinos = [
         {
             "Nom du casino": "Banzai Slots",
             "Bonus jusqu' X€": "100% jusqu'à 250€",
@@ -367,21 +367,21 @@ let casinos = {
             "Code bonus": "/",
             "Lien du casino": "https://click.tsars.partners/afs/come.php?id=541&cid=5123&atype=1&ctgid=100"
         }
-    ]
-};
+    ];
 
 
-function initTable() {
+function createTable() {
     let html ="";
-    let tabKeys = Object.keys(casinos["Feuille1"][1]);
+    let tabKeys = Object.keys(casinos[1]);
     tabKeys.pop();
+    tabKeys[1] = "Bonus jusqu\' X€"
     let header = "<tr id='headerTable'>";
     for(let i of tabKeys) {
-        header += "<th>"+i+"</th>";
+        header += `<th scope="col" onclick='tableSort("${i}");'>${i}</th>`;
     }
     header+="</tr>";
     let body = "";
-    for(let i of casinos["Feuille1"]) {
+    for(let i of casinos) {
         body += `<tr onclick="window.location='${i["Lien du casino"]}'">
                                 <td>${i[tabKeys[0]]}</td>
                                 <td>${i[tabKeys[1]]}</td>
@@ -395,8 +395,61 @@ function initTable() {
     document.getElementById("table_casinos").innerHTML = html;
 }
 
-new Twitch.Player("twitch-embed", {
-    channel: "bilsc28",
-    width: 854,
-    height: 480,
-  });
+function tableSort(key) {
+    if(key == "Wager") {
+        casinos.sort(function(a, b) {
+            let nb1 = Number(a[key].substring(1));
+            let nb2 = Number(b[key].substring(1));
+            if(nb1 == 0 && nb2 == 0) {
+                    return 0;
+            } else if(flag) {
+                if(nb1 == 0) {
+                    return 1;
+                } else if(nb2 == 0) {
+                    return -1;
+                }
+                return nb1 - nb2;
+            } else {
+                if(nb1 == 0) {
+                    return 1;
+                } else if(nb2 == 0) {
+                    return -1;
+                }
+                return nb2 - nb1;
+            }
+        });
+    }
+    else if(key == "Bet maximum") {
+        casinos.sort(function(a, b) {
+            if(b == "/") {
+                return -1;
+            }
+            if(flag) {
+                return a[key] - b[key];
+            } else {
+                return b[key] - a[key];
+            }
+        });
+    } else {
+        casinos.sort(function(a, b) {
+            let obj1 = a[key].toUpperCase();
+            let obj2 = b[key].toUpperCase();
+            
+            if(obj1 == "/") {
+                return -1;
+            }
+
+            if (obj1 < obj2) {
+                return (flag ? -1 : 1);
+            }
+            if (obj1 > obj2) {
+                return (flag ? 1 : -1);
+            }
+            return 0;
+        });
+        
+    }
+    
+    flag = !flag;
+    createTable();
+}
