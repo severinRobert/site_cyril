@@ -12,7 +12,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 250€",
             "Free spins offert": "/",
             "Wager": "/",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€ ",
             "Code bonus": "/",
             "Lien du casino": "https://track.casinorevenues.com/_BhTQDVOVie0WqcfzuvZcQGNd7ZgqdRLk/1/ "
         },
@@ -21,7 +21,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 500€",
             "Free spins offert": "20",
             "Wager": "X40",
-            "Bet maximum": "10.00 ",
+            "Bet maximum": "10€ ",
             "Code bonus": "/",
             "Lien du casino": "https://track.casinorevenues.com/_BhTQDVOVie3UOsjNOfgKeWNd7ZgqdRLk/1/ "
         },
@@ -30,7 +30,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 500€",
             "Free spins offert": "/",
             "Wager": "X30 ",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€ ",
             "Code bonus": "/",
             "Lien du casino": "https://record.rainmakercasino.net/_IftnDdVFDHJHH6eEtUVc2GNd7ZgqdRLk/1/ "
         },
@@ -39,7 +39,7 @@ let casinos = [
             "Bonus jusqu' X€": "120% jusqu'a 120€",
             "Free spins offert": "Ou 200 (X50)",
             "Wager": "X35 ",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€ ",
             "Code bonus": "/",
             "Lien du casino": "https://record.gngaffiliates.com/_pRktRPGNEhW3_O3IiMN7EWNd7ZgqdRLk/1/ "
         },
@@ -48,7 +48,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 360€",
             "Free spins offert": "/",
             "Wager": "X30 ",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€ ",
             "Code bonus": "/",
             "Lien du casino": "http://wlcasino360.adsrv.eacdn.com/C.ashx?btag=a_10540b_1009c_&affid=2047&siteid=10540&adid=1009&c= "
         },
@@ -84,7 +84,7 @@ let casinos = [
             "Bonus jusqu' X€": "100%jusqu'à 250€",
             "Free spins offert": "10 pendant 5 jours",
             "Wager": "X120",
-            "Bet maximum": "10.00 ",
+            "Bet maximum": "1€",
             "Code bonus": "/",
             "Lien du casino": "https://ultrapartners.com/redirect/id/33661/b/3/l/48/tp/h/s//tm/0 "
         },
@@ -111,7 +111,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 500€",
             "Free spins offert": "20 pendant 10 jours",
             "Wager": "X35 ",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€",
             "Code bonus": "/",
             "Lien du casino": "https://media.alfcasino.com/redirect.aspx?pid=1705744&bid=2979 "
         },
@@ -120,7 +120,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 500€",
             "Free spins offert": "50 directement et 50 24h après",
             "Wager": "X35 ",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€ ",
             "Code bonus": "/",
             "Lien du casino": "https://media.yoyocasino.com/redirect.aspx?pid=1705744&bid=2368 "
         },
@@ -129,7 +129,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 500€",
             "Free spins offert": "20 pendant 10 jours",
             "Wager": "X35 ",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€ ",
             "Code bonus": "/",
             "Lien du casino": "https://media.malinacasino.com/redirect.aspx?pid=1705744&bid=1752 "
         },
@@ -138,7 +138,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 500€",
             "Free spins offert": "20 pendant 10 jours",
             "Wager": "X35 ",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€ ",
             "Code bonus": "/",
             "Lien du casino": "https://media.burancasino.com/redirect.aspx?pid=1705744&bid=2134 "
         },
@@ -165,7 +165,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "50",
             "Wager": "X30 ",
-            "Bet maximum": "5.00 ",
+            "Bet maximum": "5€",
             "Code bonus": "/",
             "Lien du casino": "https://aff-ads.stickywilds.com/text/befa1721000360000003000003000003000001000001 "
         },
@@ -174,7 +174,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 300€",
             "Free spins offert": "20 pendant 5 jours",
             "Wager": "X40",
-            "Bet maximum": 1,
+            "Bet maximum": "1€",
             "Code bonus": "LOKI100",
             "Lien du casino": "https://atraff.com/?serial=10979&creative_id=775&anid="
         },
@@ -183,7 +183,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 300€",
             "Free spins offert": "20 pendant 5 jours",
             "Wager": "X40",
-            "Bet maximum": 1,
+            "Bet maximum": "1€",
             "Code bonus": "GS100",
             "Lien du casino": "https://atraff.com/?serial=10979&creative_id=777&anid="
         },
@@ -192,7 +192,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 300€",
             "Free spins offert": "20 pendant 5 jours",
             "Wager": "X40",
-            "Bet maximum": 1,
+            "Bet maximum": "1€",
             "Code bonus": "BONUS100",
             "Lien du casino": "https://atraff.com/?serial=10979&creative_id=771&anid="
         },
@@ -201,7 +201,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 300€",
             "Free spins offert": "20 pendant 5 jours",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum":"5€",
             "Code bonus": "EU100",
             "Lien du casino": "https://atraff.com/?serial=10979&creative_id=774&anid="
         },
@@ -210,7 +210,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 300€",
             "Free spins offert": "20 pendant 5 jours",
             "Wager": "X40",
-            "Bet maximum": 1,
+            "Bet maximum": "1€",
             "Code bonus": "/",
             "Lien du casino": "https://atraff.com/?serial=10979&creative_id=776&anid="
         },
@@ -228,7 +228,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "/",
             "Wager": "X40",
-            "Bet maximum": 1,
+            "Bet maximum": "1€",
             "Code bonus": "/",
             "Lien du casino": "https://atraff.com/?serial=10979&creative_id=1172&anid="
         },
@@ -237,25 +237,25 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 300€",
             "Free spins offert": "20 pendant 5 jours",
             "Wager": "X40",
-            "Bet maximum": 1,
+            "Bet maximum": "1€",
             "Code bonus": "/",
             "Lien du casino": "https://atraff.com/?serial=10979&creative_id=1194&anid="
         },
         {
-            "Nom du casino": "Playamo",
-            "Bonus jusqu' X€": "100% jusqu'à 100€",
-            "Free spins offert": "20 pendant 5 jours",
+            "Nom du casino": "casinoin ",
+            "Bonus jusqu' X€": "100% jusqu'à 200€",
+            "Free spins offert": "15 par semaine pendant 4 semaines",
             "Wager": "X50",
-            "Bet maximum": 5,
-            "Code bonus": "FIRSTDEP",
-            "Lien du casino": "https://media.playamopartners.com/redirect.aspx?pid=96927&bid=1483"
+            "Bet maximum": "10€",
+            "Code bonus": "/",
+            "Lien du casino": "https://click.tsars.partners/afs/come.php?id=541&cid=5123&atype=1&ctgid=100"
         },
         {
             "Nom du casino": "Bob Casino",
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "25 pendant 4 jours",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "BEHAPPY",
             "Lien du casino": "https://media.playamopartners.com/redirect.aspx?pid=96927&bid=1545"
         },
@@ -264,7 +264,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "30",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "BERLIN",
             "Lien du casino": "https://media.playamopartners.com/redirect.aspx?pid=96927&bid=1849"
         },
@@ -273,7 +273,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "25",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "PINACOLADA",
             "Lien du casino": "https://media.playamopartners.com/redirect.aspx?pid=96927&bid=1931&lpid=45"
         },
@@ -282,7 +282,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "30",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "BERLIN",
             "Lien du casino": "https://media.playamopartners.com/redirect.aspx?pid=96927&bid=1938&lpid=106"
         },
@@ -291,7 +291,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 150€",
             "Free spins offert": "20 pendant 5 jours",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "START",
             "Lien du casino": "https://media.playamopartners.com/redirect.aspx?pid=96927&bid=1943"
         },
@@ -300,7 +300,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 120€",
             "Free spins offert": "30 pendant 4 jours",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "/",
             "Lien du casino": "https://promo.20bet.partners/redirect.aspx?pid=96927&bid=2013"
         },
@@ -309,7 +309,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "25 pendant 6 jours",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "WOO",
             "Lien du casino": "https://media.playamopartners.com/redirect.aspx?pid=96927&bid=1964&lpid=180"
         },
@@ -318,7 +318,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "30 pendant 4 jours",
             "Wager": "X40",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "CAKE",
             "Lien du casino": "https://media.playamopartners.com/redirect.aspx?pid=96927&bid=1965&lpid=181"
         },
@@ -336,7 +336,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 100€",
             "Free spins offert": "100",
             "Wager": "X50",
-            "Bet maximum": 5,
+            "Bet maximum": "5€,
             "Code bonus": "/",
             "Lien du casino": "https://media.betsedgepartners.com/redirect.aspx?pid=3581&bid=1516"
         },
@@ -345,7 +345,7 @@ let casinos = [
             "Bonus jusqu' X€": "Bonus variable",
             "Free spins offert": "Free spins variable",
             "Wager": "X30 ",
-            "Bet maximum": 5,
+            "Bet maximum": "5€",
             "Code bonus": "/",
             "Lien du casino": "https://go.whamoo.com/afs/come.php?cid=11129&ctgid=1007&atype=1&brandid=11"
         },
@@ -354,7 +354,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 300€",
             "Free spins offert": "100",
             "Wager": "X25 ",
-            "Bet maximum": 2,
+            "Bet maximum": "2€",
             "Code bonus": "/",
             "Lien du casino": "https://click.casoo.partners/afs/come.php?id=95&cid=5123&atype=1&ctgid=100"
         },
@@ -363,7 +363,7 @@ let casinos = [
             "Bonus jusqu' X€": "100% jusqu'à 300€",
             "Free spins offert": "100",
             "Wager": "X25 ",
-            "Bet maximum": 2,
+            "Bet maximum": "2€",
             "Code bonus": "/",
             "Lien du casino": "https://click.tsars.partners/afs/come.php?id=541&cid=5123&atype=1&ctgid=100"
         }
@@ -374,7 +374,7 @@ function createTable() {
     let html ="";
     let tabKeys = Object.keys(casinos[1]);
     tabKeys.pop();
-    tabKeys[1] = "Bonus jusqu\' X€"
+    tabKeys[1] = "Bonus"
     let header = "<tr id='headerTable'>";
     for(let i of tabKeys) {
         header += `<th scope="col" onclick='tableSort("${i}");'>${i}</th>`;
